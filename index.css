@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#imgLogo {
+	width: 200px;
+}
+
+.nav-link {
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.bg {
+	background-image: url(./images/bgCamp.jpg);
+	height: 675px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#button {
+	color: white;
+	border: 3px solid white;
+	font-family:'Roboto Slab', serif;
+	font-size: 20px;
+	margin-top: 10%;
+	position: absolute;
+}
+
+
+#subtitle {
+	font-family:'Roboto Slab', serif;
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  #header1 {
+  	color: #FD870D;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 90px;
+	margin-top: 25%;
+	}
+	#imgPro {
+	margin-top: 8%;
+	margin-right:50px;
+	}
+	#projectsTitle > h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 80px;
+	padding: 50px 20px 20px 20px;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 1999.9px) {
+#header1 {
+  	color: #FD870D;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 80px;
+	}
+	#imgPro {
+	margin-top: 8%;
+	}
+	#projectsTitle > h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+	padding: 50px 20px 20px 20px;
+	text-align: center;
+}
+}
+
+
+@media screen and (max-width: 768.9px) {
+
+  #header1 {
+  	color: #FD870D;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+	}
+	#projectsTitle > h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
+	padding: 50px 20px 20px 20px;
+	text-align: center;
+	}
+	#picTitle {
+	font-family: 'Roboto Slab', serif;
+	font-size:20px !important;
+	color: white;
+	padding: 50px 10px 0 10px;
+}
+#contactTitle {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 25px !important;
+	margin-top: 30px;
+	color: white;
+	}
+	.texts > h5 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 10px !important;
+}
+
+.texts > .pb-3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 7px !important;
+}
+}
+
+#abtMe2 {
+	font-family: 'Roboto Slab', serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#abtMe1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+#picTitle {
+	font-family: 'Roboto Slab', serif;
+	font-size:30px;
+	color: white;
+	padding: 50px 10px 0 10px;
+}
+
+.bg-muted {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contacts {
+	background-image: url(./images/rainBg.jpg);
+	height: 720px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#contactTitle {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 30px;
+	color: white;
+}
+
+.texts > h5 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.texts > .pb-3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+#iconLinks > .p-2 > .links {
+	text-decoration: none;
+	color: inherit;
+}
